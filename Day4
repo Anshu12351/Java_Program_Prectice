@@ -1,0 +1,21 @@
+package javaProgram;
+import java.util.*;
+public class Day4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner sc=new Scanner(System.in);
+      
+      int sub1=40;
+      int sub2=50;
+      int sub3=60;
+      int sub4=80;
+      int sub5=80;
+      double TotalMarks=sub1+sub2+sub3+sub4+sub5;
+      double presentage=TotalMarks/500*100;
+      System.out.println(TotalMarks);
+      System.out.println(presentage);
+      
+      }
+
+}
