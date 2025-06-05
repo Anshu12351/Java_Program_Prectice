@@ -1,0 +1,16 @@
+package javaProgram;
+import java.util.*;
+public class Day4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner sc=new Scanner(System.in);
+      
+      double Kilometer=sc.nextDouble();
+      double meter=1000*Kilometer;
+      
+      System.out.println("meter"+"="+meter);
+      
+      }
+
+}
